@@ -10,8 +10,17 @@ Hello, Ruby!
 - 数値、文字列、変数の基本
 - スネークケースが基本
 - 実行例：
+name = "Taro"
+age = 20
+puts "#{name}は#{age}歳です"
 Taroは20歳です
 
 ## Chapter3: 演算子
 - 算術、比較、論理演算子
 - 判断メソッド（==,!=）
+
+## Chapter4: 条件分岐
+- if / elsif / else
+- ||（または）/ &&（かつ）
+- case 変数/ when
+- timesメソッド　n.times do ~ end
