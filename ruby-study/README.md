@@ -23,4 +23,13 @@ Taroは20歳です
 - if / elsif / else
 - ||（または）/ &&（かつ）
 - case 変数/ when
+
+## Chapter5: 繰り返し処理
 - timesメソッド　n.times do ~ end
+- for / while / times
+
+## Chapter7: 配列
+- push / unshift / pop / shift
+- メソッドの呼び出し「オブジェクト.メソッド」
+- nil
+- 配列.each do |変数| ～ end　（繰り返し処理）
