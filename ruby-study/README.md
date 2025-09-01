@@ -28,6 +28,10 @@ Taroは20歳です
 - timesメソッド　n.times do ~ end
 - for / while / times
 
+## Chapter6: メソッド
+- size/sum/uniq/clear/sample/sort/reverse/join/split/map
+- defでメソッド定義
+
 ## Chapter7: 配列
 - push / unshift / pop / shift
 - メソッドの呼び出し「オブジェクト.メソッド」

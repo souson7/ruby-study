@@ -24,3 +24,58 @@ p [100,50,300].sort
 #reverseメソッド-配列の要素を逆順にする
 p [100,50,300].sort.reverse
 p "cba".reverse
+
+#joinメソッド-配列中の文字列を連結する
+puts ["カフェラテ", "チーズケーキ", "バニラアイス"].join
+puts ["カフェラテ", "チーズケーキ", "バニラアイス"].join("と")
+puts ["100", "50", "300"].join(",")
+
+#splitメソッド-文字列を分割して配列にする
+p "カフェラテ チーズケーキ バニラアイス".split
+p "カフェラテとチーズケーキとバニラアイス".split("と")
+p "100,50,300".split(",")
+
+#mapメソッド-配列の各要素を変換した配列を作る
+result = [1,2,3].map do |x|
+    x * 2
+end
+p result
+
+result = [100, 200, 300].map do |x|
+    "#{x}円"
+end
+p result
+
+result = [1, 2, 3].map do |x|
+    x * 3
+end
+p result
+
+result = ["abc", "xyz"].map do |x|
+    x.reverse
+end
+p result
+
+result = ["aya", "achi", "Tama"].map do |x|
+    x.downcase
+end
+result = result.sort
+p result
+
+#メソッド定義・呼び出し
+def area
+    puts 2*2
+end
+area #定義したareaメソッドを呼び出し
+
+#メソッドの戻り値
+def area
+    puts 2*2
+end
+puts area
+
+def area
+    puts 2*2
+end
+result = area
+puts result
