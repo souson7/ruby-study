@@ -79,3 +79,28 @@ def area
 end
 result = area
 puts result
+
+#引数を使ってオブジェクトを渡せるメソッドを定義
+def area(x)
+    x * x
+end
+puts area(2) #メソッド呼び出し（引数は2）
+
+def area(x,y)
+    x * y
+end
+puts area(2,3) #メソッド呼び出し（引数は2と3）
+
+
+def order(item:, size:) #引数名の後ろに:をつけるとキーワード引数になる
+    "#{item}を#{size}サイズでください"
+end
+puts order(item: "カフェラテ", size: "ベンティ") #引数を名前つきで指定できる
+puts order(size: "ベンティ", item: "カフェラテ") #引数の順番も変えられる
+
+
+def order(item:, size: "ショート") #sizeのデフォルト値に"ショート"を設定
+    "#{item}を#{size}サイズでください"
+end
+puts order(item: "カフェラテ") #省略するとデフォルト値が使われる
+puts order(item: "カフェラテ", size: "ベンティ") 
