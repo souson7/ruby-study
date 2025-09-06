@@ -31,9 +31,16 @@ Taroは20歳です
 ## Chapter6: メソッド
 - size/sum/uniq/clear/sample/sort/reverse/join/split/map
 - defでメソッド定義
+- 引数、キーワード引数
 
 ## Chapter7: 配列
 - push / unshift / pop / shift
 - メソッドの呼び出し「オブジェクト.メソッド」
 - nil
 - 配列.each do |変数| ～ end　（繰り返し処理）
+
+## Chapter8: ハッシュ
+- ハッシュは「キーと値」のセットで複数のデータを扱うことができる
+- 実行例：{"コーヒー" => 300, "カフェラテ" => 400} /　{coffee: 300, caffe_latte: 400}
+- ハッシュへのキーと値の追加・削除（mergeメソッド、deleteメソッド）
+- ハッシュの繰り返し処理（eachメソッドとブロック）
